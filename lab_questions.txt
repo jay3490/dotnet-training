@@ -24,3 +24,32 @@ Questions for assessment
     Answer : a
     
 
+3.
+
+ Postman is:
+ a. Chrome Extension
+ b. Web Application
+ c. Native Application
+ d. All of the above are correct
+
+Answer : A and C
+
+4.
+
+Assume you get the following response for a request:
+
+{
+
+  "timestamp": 1491748899439,
+
+  "status": 401
+
+}
+
+What command do you use to save the timestamp in an environment variable called “token”?
+a. var jsonData = JSON.parse(responseBody); postman.setGlobalVariable("token", jsonData.timestamp);
+b. var jsonData = JSON.parse(responseBody); postman.setEnvironmentVariable("token", jsonData.timestamp);
+c. var jsonData = JSON.parse(responseBody); postman.setEnvironmentVariable("token", timestamp.jsonData);
+d. var jsonData = JSON.parse(responseBody); postman.setEnvironmentVariable("tokens", timestamp.jsonData);
+
+Answer : B
